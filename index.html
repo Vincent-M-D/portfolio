@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent M D | Portfolio</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style2.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            background-image: url("images/bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ================= HERO SECTION ================= -->
+<section class="hero-section">
+    <div class="hero-container">
+
+        <!-- Left Content -->
+        <div class="hero-text">
+            <p class="small-title">Personal Portfolio</p>
+            <h1 class="hero-title">Hi, I'm Vincent M D</h1>
+            <h2>Student & Aspiring Developer</h2>
+        </div>
+
+        <!-- Right Image -->
+        <div class="image-box">
+            <img src="images/profile.jpg" alt="Vincent Profile Image">
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= ABOUT & CONTACT SECTION ================= -->
+<section class="info-section">
+    <div class="info-container">
+
+        <!-- Left: About Me -->
+        <div class="about-card">
+            <h3>About Me</h3>
+            <p>
+                I am a student at Kristu Jayanti University and a beginner web developer learning Python, HTML, JavaScript, CSS.<br>
+                I enjoy turning ideas into working projects and exploring how frontend and backend systems connect with databases.<br>
+                My goal is to gain real-world experience and become a full stack developer.
+            </p>
+            <h3>Additional Skills</h3>
+            <p>
+                * Digital Engineering<br>
+                * Node.js : Advanced Concepts<br>
+                * HTML & CSS<br>
+                * JavaScript<br>
+                * Git & Github
+            </p>
+        </div>
+
+        <!-- Right: Contact + Form -->
+        <div class="contact-section">
+
+            <!-- Contact Info Box -->
+            <div class="contact-card">
+                <h3>Contact Details</h3>
+                <p><strong>Mobile:</strong> +91 73060 49703</p>
+                <p><strong>Email:</strong> 25bcae70@kristujayanti.com</p>
+            </div>
+
+            <!-- Message Form Box -->
+            <div class="form-card">
+                <h3>Send a Message</h3>
+
+                <form id="contactForm">
+
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Firebase JS -->
+<script type="module" src="firebase.js"></script>
+
+</body>
+</html>
